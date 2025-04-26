@@ -6,7 +6,7 @@ import { Users, FileText, ListOrdered, Mail, HelpCircle, Home, Video } from "luc
 
 export const Header = () => {
   return (
-    <header className="border-b border-border/40 backdrop-blur-sm sticky top-0 z-50">
+    <header className="border-b border-border/40 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 bg-background/80">
       <div className="container flex items-center justify-between h-16">
         <div className="flex items-center space-x-4">
           <Link to="/" className="text-xl font-bold flex items-center gap-2">

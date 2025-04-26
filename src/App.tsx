@@ -1,3 +1,4 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -20,16 +21,18 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/members/:edition" element={<MembersPage />} />
-          <Route path="/materials" element={<MaterialsPage />} />
-          <Route path="/lessons" element={<LessonsPage />} />
-          <Route path="/videos" element={<VideosPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+        <div className="pt-16"> {/* Add top padding to prevent header overlap */}
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/members/:edition" element={<MembersPage />} />
+            <Route path="/materials" element={<MaterialsPage />} />
+            <Route path="/lessons" element={<LessonsPage />} />
+            <Route path="/videos" element={<VideosPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </div>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
