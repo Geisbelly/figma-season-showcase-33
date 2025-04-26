@@ -1,8 +1,7 @@
-
 import { Button } from "@/components/ui/button";
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuList, NavigationMenuTrigger } from "@/components/ui/navigation-menu";
 import { Link } from "react-router-dom";
-import { Users, FileText, ListOrdered, Mail, HelpCircle, Home } from "lucide-react";
+import { Users, FileText, ListOrdered, Mail, HelpCircle, Home, Video } from "lucide-react";
 
 export const Header = () => {
   return (
@@ -48,6 +47,14 @@ export const Header = () => {
                 <Button variant="ghost" className="flex items-center gap-2">
                   <ListOrdered className="w-4 h-4" />
                   Lições
+                </Button>
+              </Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <Link to="/videos">
+                <Button variant="ghost" className="flex items-center gap-2">
+                  <Video className="w-4 h-4" />
+                  Video Aulas
                 </Button>
               </Link>
             </NavigationMenuItem>

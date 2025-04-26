@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -9,6 +8,7 @@ import NotFound from "./pages/NotFound";
 import MembersPage from "./pages/members/[edition]";
 import MaterialsPage from "./pages/materials";
 import LessonsPage from "./pages/lessons";
+import VideosPage from "./pages/videos";
 import ContactPage from "./pages/contact";
 import AboutPage from "./pages/about";
 
@@ -25,6 +25,7 @@ const App = () => (
           <Route path="/members/:edition" element={<MembersPage />} />
           <Route path="/materials" element={<MaterialsPage />} />
           <Route path="/lessons" element={<LessonsPage />} />
+          <Route path="/videos" element={<VideosPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="*" element={<NotFound />} />

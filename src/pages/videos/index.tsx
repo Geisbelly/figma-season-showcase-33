@@ -1,0 +1,52 @@
+
+import { Video } from "lucide-react";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+
+const VideosPage = () => {
+  const videos = [
+    {
+      id: 1,
+      title: "Introdução ao Figma",
+      videoId: "dQw4w9WgXcQ", // Replace with your actual YouTube video ID
+      description: "Aprenda os conceitos básicos do Figma",
+    },
+    {
+      id: 2,
+      title: "Componentes e Auto-layout",
+      videoId: "dQw4w9WgXcQ", // Replace with your actual YouTube video ID
+      description: "Criando componentes reutilizáveis",
+    },
+  ];
+
+  return (
+    <div className="container py-12">
+      <h1 className="text-4xl font-bold mb-8">Video Aulas</h1>
+      <div className="grid gap-6 md:grid-cols-2">
+        {videos.map((video) => (
+          <Card key={video.id} className="overflow-hidden">
+            <CardHeader className="space-y-1">
+              <CardTitle className="flex items-center gap-2">
+                <Video />
+                {video.title}
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="aspect-video">
+                <iframe
+                  className="w-full h-full rounded-md"
+                  src={`https://www.youtube.com/embed/${video.videoId}`}
+                  title={video.title}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+              <p className="mt-4 text-muted-foreground">{video.description}</p>
+            </CardContent>
+          </Card>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default VideosPage;
