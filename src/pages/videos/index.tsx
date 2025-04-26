@@ -22,7 +22,7 @@ const VideosPage = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <div className="container py-12">
+      <main className="container py-12">
         <h1 className="text-4xl font-bold mb-8">Video Aulas</h1>
         <div className="grid gap-6 md:grid-cols-2">
           {videos.map((video) => (
