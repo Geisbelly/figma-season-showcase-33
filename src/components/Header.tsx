@@ -1,18 +1,74 @@
 
 import { Button } from "@/components/ui/button";
+import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuList, NavigationMenuTrigger } from "@/components/ui/navigation-menu";
+import { Link } from "react-router-dom";
+import { Users, FileText, ListOrdered, Mail, HelpCircle, Home } from "lucide-react";
 
 export const Header = () => {
   return (
     <header className="border-b border-border/40 backdrop-blur-sm sticky top-0 z-50">
       <div className="container flex items-center justify-between h-16">
         <div className="flex items-center space-x-4">
-          <h1 className="text-xl font-bold">Figma Masterclass</h1>
+          <Link to="/" className="text-xl font-bold flex items-center gap-2">
+            <Home className="w-5 h-5" />
+            Figma Masterclass
+          </Link>
         </div>
-        <nav className="flex items-center space-x-4">
-          <Button variant="ghost">Temporadas</Button>
-          <Button variant="ghost">Recursos</Button>
-          <Button variant="default">Começar Agora</Button>
-        </nav>
+        <NavigationMenu>
+          <NavigationMenuList>
+            <NavigationMenuItem>
+              <NavigationMenuTrigger>
+                <Users className="w-4 h-4 mr-2" />
+                Integrantes
+              </NavigationMenuTrigger>
+              <NavigationMenuContent>
+                <div className="grid gap-3 p-4 w-[400px]">
+                  <Link to="/members/2024.1" className="block p-3 hover:bg-accent rounded-md">
+                    Edição 2024.1
+                  </Link>
+                  <Link to="/members/2023.2" className="block p-3 hover:bg-accent rounded-md">
+                    Edição 2023.2
+                  </Link>
+                  <Link to="/members/2023.1" className="block p-3 hover:bg-accent rounded-md">
+                    Edição 2023.1
+                  </Link>
+                </div>
+              </NavigationMenuContent>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <Link to="/materials">
+                <Button variant="ghost" className="flex items-center gap-2">
+                  <FileText className="w-4 h-4" />
+                  Materiais
+                </Button>
+              </Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <Link to="/lessons">
+                <Button variant="ghost" className="flex items-center gap-2">
+                  <ListOrdered className="w-4 h-4" />
+                  Lições
+                </Button>
+              </Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <Link to="/contact">
+                <Button variant="ghost" className="flex items-center gap-2">
+                  <Mail className="w-4 h-4" />
+                  Contato
+                </Button>
+              </Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <Link to="/about">
+                <Button variant="ghost" className="flex items-center gap-2">
+                  <HelpCircle className="w-4 h-4" />
+                  Sobre
+                </Button>
+              </Link>
+            </NavigationMenuItem>
+          </NavigationMenuList>
+        </NavigationMenu>
       </div>
     </header>
   );
