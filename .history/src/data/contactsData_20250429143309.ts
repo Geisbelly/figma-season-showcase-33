@@ -22,6 +22,7 @@ export const contactsData: Contact[] = [
       { type: "linkedin", url: "https://linkedin.com/in/geisbelly" },
       { type: "github", url: "https://github.com/geisbelly" },
       { type: "email", url: "mailto:geisbelly19@gmail.com" },
+      { type: "instagram", url: "https://instagram.com/geisbelly" },
       { type: "whatsapp", url: "https://wa.me/5563933006942" }
     ]
   },
@@ -32,6 +33,7 @@ export const contactsData: Contact[] = [
     description: "Design de interfaces e experiência do usuário, com mais de 1 ano e experiência.",
     socialLinks: [
       { type: "linkedin", url: "https://www.linkedin.com/in/levi-luz-4384362b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
+      { type: "github", url: "https://github.com/levisilva" },
       { type: "email", url: "leviluzbr@gmail.com" },
       { type: "phone", url: "tel:+5563984424488" }
     ]
@@ -51,22 +53,11 @@ export const contactsData: Contact[] = [
   {
     name: "Guilherme Domiciano",
     role: "Instrutor Assistente",
-    photo: "/public/guilherme.jpeg",
+    photo: "/public/jp.jpeg",
     description: "Desenvolvedor com mais de 1 anos de experiência.",
     socialLinks: [
-      { type: "linkedin", url: "https://www.linkedin.com/in/guiherme-domiciano" },
-      { type: "github", url: "https://github.com/GuilhermeDomiciano"},
-      { type: "email", url: "mailto:guilhermedomicianosilva@gmail.com" }
-    ]
-  },{
-    name: "Samuel Abade",
-    role: "Instrutor Assistente",
-    photo: "/public/samuel.jpeg",
-    description: "Desenvolvedor com mais de 1 anos de experiência.",
-    socialLinks: [
-      { type: "instagram", url: "https://instagram.com/samuel_abade21" },
-      { type: "email", url: "mailto:mugas804@gmail.com" },
-      { type: "whatsapp", url: "https://wa.me/5563991231551" }
+      { type: "linkedin", url: "https://www.linkedin.com/in/joao-pedro-ribeiro-batista-araujo-1583b1332/?originalSubdomain=br" },
+      { type: "email", url: "mailto:jpedro204jp@rede.ulbra.br" }
     ]
   }
 ];

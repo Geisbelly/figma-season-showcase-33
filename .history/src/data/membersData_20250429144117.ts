@@ -17,29 +17,29 @@ interface MembersData {
 export const membersData: MembersData = {
   "2024.1": {
     ministrantes: [
-      { nome: 'Geisbelly Victória', curso: 'Ciência da Computação', foto: '/public/geisbelly.jpg' },
-      { nome: 'Levi Luz', curso: 'Ciência da Computação', foto: '/public/levi.jpeg' },
-      { nome: 'João Lucas', curso: 'Ciência da Computação', foto: '/public/lucas.jpg' }
+      { nome: 'Geisbelly', curso: 'Ciência da Computação', foto: '/public/geisbelly.jpg' },
+      { nome: 'Levi', curso: 'Ciência da Computação', foto: '/public/levi.jpeg' },
+      { nome: 'Lucas', curso: 'Ciência da Computação', foto: '/public/lucas.jpg' }
     ],
     assistentes: [
     ]
   },
   "2024.2": {
     ministrantes: [
-      { nome: 'Geisbelly Victória', curso: 'Ciência da Computação', foto: '/public/geisbelly.jpg' },
-      { nome: 'Levi Luz', curso: 'Ciência da Computação', foto: '/public/levi.jpeg' },
-      { nome: 'João Lucas', curso: 'Ciência da Computação', foto: '/public/lucas.jpg' }
+      { nome: 'Geisbelly', curso: 'Ciência da Computação', foto: '/public/geisbelly.jpg' },
+      { nome: 'Levi', curso: 'Ciência da Computação', foto: '/public/levi.jpeg' },
+      { nome: 'Lucas', curso: 'Ciência da Computação', foto: '/public/lucas.jpg' }
     ],
     assistentes: [
       { nome: 'Maria Clara', curso: 'Ciência da Computação', foto: '/public/maria.jpeg' },
       { nome: 'Samuel Abade', curso: 'Engenharia de Softwares', foto: '/public/samuel.jpeg' },
-      { nome: 'Ana Clara Zanetti', curso: 'Engenharia de Softwares', foto: '/public/ana.jpeg' },
+      { nome: 'Ana', curso: 'Engenharia de Softwares', foto: '/public/ana.jpeg' },
     ]
   },
   "2025.1": {
     ministrantes: [
-      { nome: 'Geisbelly Victória', curso: 'Ciência da Computação', foto: '/public/geisbelly.jpg' },
-      { nome: 'Levi Luz', curso: 'Ciência da Computação', foto: '/public/levi.jpeg' },
+      { nome: 'Geisbelly', curso: 'Ciência da Computação', foto: '/public/geisbelly.jpg' },
+      { nome: 'Levi', curso: 'Ciência da Computação', foto: '/public/levi.jpeg' },
       { nome: 'Maria Clara', curso: 'Ciência da Computação', foto: '/public/maria.jpeg' }
     ],
     assistentes: [

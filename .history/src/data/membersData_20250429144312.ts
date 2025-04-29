@@ -39,7 +39,7 @@ export const membersData: MembersData = {
   "2025.1": {
     ministrantes: [
       { nome: 'Geisbelly Victória', curso: 'Ciência da Computação', foto: '/public/geisbelly.jpg' },
-      { nome: 'Levi Luz', curso: 'Ciência da Computação', foto: '/public/levi.jpeg' },
+      { nome: 'Levi', curso: 'Ciência da Computação', foto: '/public/levi.jpeg' },
       { nome: 'Maria Clara', curso: 'Ciência da Computação', foto: '/public/maria.jpeg' }
     ],
     assistentes: [

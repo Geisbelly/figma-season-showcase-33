@@ -17,9 +17,9 @@ interface MembersData {
 export const membersData: MembersData = {
   "2024.1": {
     ministrantes: [
-      { nome: 'Geisbelly Victória', curso: 'Ciência da Computação', foto: '/public/geisbelly.jpg' },
-      { nome: 'Levi Luz', curso: 'Ciência da Computação', foto: '/public/levi.jpeg' },
-      { nome: 'João Lucas', curso: 'Ciência da Computação', foto: '/public/lucas.jpg' }
+      { nome: 'Geisbelly', curso: 'Ciência da Computação', foto: '/public/geisbelly.jpg' },
+      { nome: 'Levi', curso: 'Ciência da Computação', foto: '/public/levi.jpeg' },
+      { nome: 'Lucas', curso: 'Ciência da Computação', foto: '/public/lucas.jpg' }
     ],
     assistentes: [
     ]
@@ -28,7 +28,7 @@ export const membersData: MembersData = {
     ministrantes: [
       { nome: 'Geisbelly Victória', curso: 'Ciência da Computação', foto: '/public/geisbelly.jpg' },
       { nome: 'Levi Luz', curso: 'Ciência da Computação', foto: '/public/levi.jpeg' },
-      { nome: 'João Lucas', curso: 'Ciência da Computação', foto: '/public/lucas.jpg' }
+      { nome: 'Lucas', curso: 'Ciência da Computação', foto: '/public/lucas.jpg' }
     ],
     assistentes: [
       { nome: 'Maria Clara', curso: 'Ciência da Computação', foto: '/public/maria.jpeg' },
@@ -38,8 +38,8 @@ export const membersData: MembersData = {
   },
   "2025.1": {
     ministrantes: [
-      { nome: 'Geisbelly Victória', curso: 'Ciência da Computação', foto: '/public/geisbelly.jpg' },
-      { nome: 'Levi Luz', curso: 'Ciência da Computação', foto: '/public/levi.jpeg' },
+      { nome: 'Geisbelly', curso: 'Ciência da Computação', foto: '/public/geisbelly.jpg' },
+      { nome: 'Levi', curso: 'Ciência da Computação', foto: '/public/levi.jpeg' },
       { nome: 'Maria Clara', curso: 'Ciência da Computação', foto: '/public/maria.jpeg' }
     ],
     assistentes: [

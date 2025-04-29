@@ -32,6 +32,7 @@ export const contactsData: Contact[] = [
     description: "Design de interfaces e experiência do usuário, com mais de 1 ano e experiência.",
     socialLinks: [
       { type: "linkedin", url: "https://www.linkedin.com/in/levi-luz-4384362b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
+      { type: "github", url: "https://github.com/levisilva" },
       { type: "email", url: "leviluzbr@gmail.com" },
       { type: "phone", url: "tel:+5563984424488" }
     ]
@@ -55,7 +56,7 @@ export const contactsData: Contact[] = [
     description: "Desenvolvedor com mais de 1 anos de experiência.",
     socialLinks: [
       { type: "linkedin", url: "https://www.linkedin.com/in/guiherme-domiciano" },
-      { type: "github", url: "https://github.com/GuilhermeDomiciano"},
+      
       { type: "email", url: "mailto:guilhermedomicianosilva@gmail.com" }
     ]
   },{
