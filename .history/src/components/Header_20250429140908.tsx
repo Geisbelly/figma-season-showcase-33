@@ -27,10 +27,10 @@ export const Header = () => {
                     Edição 2024.1
                   </Link>
                   <Link to="/members/2024.2" className="block p-3 hover:bg-accent rounded-md">
-                    Edição 2024.2
+                    Edição 2023.2
                   </Link>
                   <Link to="/members/2025.1" className="block p-3 hover:bg-accent rounded-md">
-                    Edição 2025.1
+                    Edição 2023.1
                   </Link>
                 </div>
               </NavigationMenuContent>

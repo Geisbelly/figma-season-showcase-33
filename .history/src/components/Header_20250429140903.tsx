@@ -26,11 +26,11 @@ export const Header = () => {
                   <Link to="/members/2024.1" className="block p-3 hover:bg-accent rounded-md">
                     Edição 2024.1
                   </Link>
-                  <Link to="/members/2024.2" className="block p-3 hover:bg-accent rounded-md">
-                    Edição 2024.2
+                  <Link to="/members/202.2" className="block p-3 hover:bg-accent rounded-md">
+                    Edição 2023.2
                   </Link>
-                  <Link to="/members/2025.1" className="block p-3 hover:bg-accent rounded-md">
-                    Edição 2025.1
+                  <Link to="/members/2023.1" className="block p-3 hover:bg-accent rounded-md">
+                    Edição 2023.1
                   </Link>
                 </div>
               </NavigationMenuContent>

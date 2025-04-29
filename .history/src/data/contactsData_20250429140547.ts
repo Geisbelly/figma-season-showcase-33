@@ -17,7 +17,7 @@ export const contactsData: Contact[] = [
     name: "Geisbelly Souza",
     role: "Instrutora Principal",
     photo: "/placeholder.svg",
-    description: "Designer UI/UX, desenvolvedora com mais de 1 anos de experiência.",
+    description: "Designer UI/UX com mais de 5 anos de experiência, especialista em Figma e prototipagem.",
     socialLinks: [
       { type: "linkedin", url: "https://linkedin.com/in/geisbelly" },
       { type: "github", url: "https://github.com/geisbelly" },
