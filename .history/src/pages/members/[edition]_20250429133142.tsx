@@ -8,7 +8,7 @@ import { Alert, AlertDescription } from "@/components/ui/alert";
 
 const MembersPage = () => {
   const { edition } = useParams();
-  const editionKey = edition;
+  const editionKey = edition?.replace(".", "");
   const members = editionKey ? membersData[editionKey] : undefined;
   
   if (!members) {

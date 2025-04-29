@@ -54,7 +54,7 @@ export const materialsData: Material[] = [
     title: "Imagens para Mockups",
     description: "Banco de imagens de alta qualidade para mockups",
     type: "recursos",
-    url: "https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/tree/main/Imagens/M%C3%ADdias",
+    url: "https://figma.com/file/mockup-images",
     icon: "resources",
     edition: "2024.2"
   },
@@ -62,7 +62,7 @@ export const materialsData: Material[] = [
     title: "Imagens para Mockups",
     description: "Banco de imagens de alta qualidade para mockups",
     type: "recursos",
-    url: "https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/tree/main/Imagens/M%C3%ADdias",
+    url: "https://figma.com/file/mockup-images",
     icon: "resources",
     edition: "2024.1"
   },

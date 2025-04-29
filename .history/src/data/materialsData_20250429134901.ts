@@ -13,7 +13,7 @@ export const materialsData: Material[] = [
     title: "Slides do Figma Whatsapp - Fundamentos",
     description: "Apresentação com conceitos básicos do Figma no Whatsapp",
     type: "slide",
-    url: "https://www.figma.com/proto/TrsbL0yJsZr7T5POs8L3F5/Slides---Curso-de-Figma-%7C-Whatsapp?node-id=1016-532&t=Lfq2DEW6WaJD4RVH-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1016%3A532&show-proto-sidebar=1",
+    url: "https://figma.com/file/slides-basics",
     icon: "presentation",
     edition: "2024.1"
   },
@@ -38,7 +38,7 @@ export const materialsData: Material[] = [
     title: "Modelo de WhatsApp",
     description: "Arquivo do Figma com modelo completo do WhatsApp",
     type: "modelo",
-    url: "https://www.figma.com/proto/rIhu55GF3hGfxozufJoR5N/WhatsApp?node-id=1-87&t=1T5QsEqeR07VdyTz-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A87&show-proto-sidebar=1",
+    url: "https://figma.com/file/whatsapp-template",
     icon: "figma",
     edition: "2024.1"
   },
@@ -54,7 +54,7 @@ export const materialsData: Material[] = [
     title: "Imagens para Mockups",
     description: "Banco de imagens de alta qualidade para mockups",
     type: "recursos",
-    url: "https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/tree/main/Imagens/M%C3%ADdias",
+    url: "https://figma.com/file/mockup-images",
     icon: "resources",
     edition: "2024.2"
   },
@@ -62,7 +62,7 @@ export const materialsData: Material[] = [
     title: "Imagens para Mockups",
     description: "Banco de imagens de alta qualidade para mockups",
     type: "recursos",
-    url: "https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/tree/main/Imagens/M%C3%ADdias",
+    url: "https://figma.com/file/mockup-images",
     icon: "resources",
     edition: "2024.1"
   },
@@ -70,7 +70,7 @@ export const materialsData: Material[] = [
     title: "Modelo de WhatsApp",
     description: "Arquivo do Figma com modelo completo do WhatsApp",
     type: "modelo",
-    url: "https://figma.com/file/whatsapp-templatehttps://www.figma.com/proto/rIhu55GF3hGfxozufJoR5N/WhatsApp?node-id=1-87&t=1T5QsEqeR07VdyTz-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A87&show-proto-sidebar=1",
+    url: "https://figma.com/file/whatsapp-template",
     icon: "figma",
     edition: "2024.2"
   }

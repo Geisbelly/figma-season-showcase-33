@@ -6,9 +6,9 @@ const VideosPage = () => {
   const videos = [
     {
       id: 1,
-      title: "Figma - Básico ao Avançado",
-      videoId: "VLzwFOY3yyM", // Replace with your actual YouTube video ID
-      description: "Aprenda os conceitos do básico ao avançado de Figma",
+      title: "Introdução ao Figma",
+      videoId: "dQw4w9WgXcQ", // Replace with your actual YouTube video ID
+      description: "Aprenda os conceitos básicos do Figma",
     }
   ];
 
@@ -29,7 +29,7 @@ const VideosPage = () => {
                 <div className="aspect-video">
                   <iframe
                     className="w-full h-full rounded-md"
-                    src={`https://www.youtube.com/embed/${video.videoId}`}
+                    src={`https://www.youtube.com/${video.videoId}`}
                     title={video.title}
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

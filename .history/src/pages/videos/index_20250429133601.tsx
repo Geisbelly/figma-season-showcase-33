@@ -6,9 +6,9 @@ const VideosPage = () => {
   const videos = [
     {
       id: 1,
-      title: "Figma - Básico ao Avançado",
-      videoId: "VLzwFOY3yyM", // Replace with your actual YouTube video ID
-      description: "Aprenda os conceitos do básico ao avançado de Figma",
+      title: "Introdução ao Figma",
+      videoId: "dQw4w9WgXcQ", // Replace with your actual YouTube video ID
+      description: "Aprenda os conceitos básicos do Figma",
     }
   ];
 
