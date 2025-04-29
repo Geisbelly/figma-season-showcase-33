@@ -3,6 +3,7 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Clock, Calendar, BookOpen, Dumbbell, Trophy } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface LessonCardProps {
   title: string;
@@ -107,9 +108,11 @@ export const LessonCard = ({
         </div>
       </CardContent>
       <CardFooter>
-        <Button variant="outline" className="w-full">
-          <span className="mr-2">{getTypeIcon()}</span>
-          Ver Conteúdo
+        <Button variant="outline" className="w-full" asChild>
+          <Link to={`/lessons/${order}`}>
+            <span className="mr-2">{getTypeIcon()}</span>
+            Ver Conteúdo
+          </Link>
         </Button>
       </CardFooter>
     </Card>
