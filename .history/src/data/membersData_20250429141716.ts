@@ -40,13 +40,11 @@ export const membersData: MembersData = {
     ministrantes: [
       { nome: 'Geisbelly', curso: 'Ciência da Computação', foto: '/public/geisbelly.jpg' },
       { nome: 'Levi', curso: 'Ciência da Computação', foto: '/public/levi.jpeg' },
-      { nome: 'Maria Clara', curso: 'Ciência da Computação', foto: '/public/maria.jpeg' }
+      { nome: 'Maria Clara', curso: 'Ciência da Computação', foto: '/public/maria.jpg' }
     ],
     assistentes: [
-      { nome: 'Nicole', curso: 'Engenharia de Softwares', foto: '/public/nicole.jpeg' },
-      { nome: 'Ana', curso: 'Engenharia de Softwares', foto: '/public/ana.jpeg' },
-      { nome: 'Samuel', curso: 'Engenharia de Softwares', foto: '/public/samuel.jpeg' },
-      { nome: 'João Pedro', curso: 'Engenharia de Softwares', foto: '/public/jp.jpeg' }  
+      { nome: 'Ricardo', curso: 'Sistemas de Informação', foto: '/public/' },
+      { nome: 'Beatriz', curso: 'Design', foto: '/public/' }
     ]
   }
 };

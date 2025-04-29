@@ -46,7 +46,7 @@ export const membersData: MembersData = {
       { nome: 'Nicole', curso: 'Engenharia de Softwares', foto: '/public/nicole.jpeg' },
       { nome: 'Ana', curso: 'Engenharia de Softwares', foto: '/public/ana.jpeg' },
       { nome: 'Samuel', curso: 'Engenharia de Softwares', foto: '/public/samuel.jpeg' },
-      { nome: 'João Pedro', curso: 'Engenharia de Softwares', foto: '/public/jp.jpeg' }  
+      { nome: 'João Pedro', curso: 'Engenharia de Softwares', foto: '/public/lucas.jpg' }  
     ]
   }
 };
