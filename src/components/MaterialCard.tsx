@@ -2,7 +2,7 @@
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { FileText, Figma, Image } from "lucide-react";
+import { FileText, Figma, Image, Calendar } from "lucide-react";
 
 interface MaterialCardProps {
   title: string;
@@ -10,9 +10,10 @@ interface MaterialCardProps {
   type: "slide" | "modelo" | "recursos";
   url: string;
   icon: "presentation" | "figma" | "resources";
+  edition: string;
 }
 
-export const MaterialCard = ({ title, description, type, url, icon }: MaterialCardProps) => {
+export const MaterialCard = ({ title, description, type, url, icon, edition }: MaterialCardProps) => {
   const getIcon = () => {
     switch (icon) {
       case "presentation":
@@ -64,6 +65,10 @@ export const MaterialCard = ({ title, description, type, url, icon }: MaterialCa
       </CardHeader>
       <CardContent>
         <p className="text-muted-foreground mb-4">{description}</p>
+        <div className="flex items-center text-xs text-muted-foreground">
+          <Calendar className="h-4 w-4 mr-1" />
+          <span>Edição {edition}</span>
+        </div>
       </CardContent>
       <CardFooter>
         <Button variant="outline" className="w-full" onClick={() => window.open(url, "_blank")}>
