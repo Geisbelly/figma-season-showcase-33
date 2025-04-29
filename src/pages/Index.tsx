@@ -1,38 +1,30 @@
 
-import { Header } from "@/components/Header";
 import { SeasonCard } from "@/components/SeasonCard";
 
 const seasons = [
   {
-    title: "Fundamentos do Figma",
+    title: "Clone do Whatsapp com Figma",
     version: "2024.1",
-    description: "Aprenda os conceitos básicos e a interface do Figma",
-    lessons: 12,
+    description: "Aprenda os conceitos básicos ao intermediario com a interface do Figma",
+    lessons: 25,
   },
   {
-    title: "Design Systems",
-    version: "2024.1",
-    description: "Crie e gerencie sistemas de design escaláveis",
-    lessons: 8,
+    title: "Clone do Whatsapp com Figma",
+    version: "2024.2",
+    description: "Aprenda os conceitos básicos com a interface do Figma",
+    lessons: 23,
   },
   {
-    title: "Prototipagem Avançada",
-    version: "2024.1",
-    description: "Desenvolva protótipos interativos e animações",
+    title: "Contruindo o Pinterest no Figma",
+    version: "2025.1",
+    description: "Básico do figma, para iniciantes",
     lessons: 10,
-  },
-  {
-    title: "Auto Layout & Constraints",
-    version: "2024.1",
-    description: "Domine layouts responsivos e constraints",
-    lessons: 6,
   }
 ];
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <Header />
       <main className="container py-12">
         <section className="mb-12 animate-fadeIn">
           <h1 className="text-4xl font-bold mb-4">

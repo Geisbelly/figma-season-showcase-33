@@ -1,5 +1,4 @@
 
-import { Header } from "@/components/Header";
 import { Video } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -21,7 +20,6 @@ const VideosPage = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Header />
       <main className="container py-12">
         <h1 className="text-4xl font-bold mb-8">Video Aulas</h1>
         <div className="grid gap-6 md:grid-cols-2">
