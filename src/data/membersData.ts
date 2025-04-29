@@ -25,7 +25,7 @@ export const membersData: MembersData = {
       { nome: 'Levi', curso: 'Ciência da Computação', foto: '/placeholder.svg' }
     ]
   },
-  "2023.2": {
+  "2024.2": {
     ministrantes: [
       { nome: 'Carlos', curso: 'Design', foto: '/placeholder.svg' },
       { nome: 'Ana', curso: 'Sistemas de Informação', foto: '/placeholder.svg' }
@@ -35,7 +35,7 @@ export const membersData: MembersData = {
       { nome: 'Maria', curso: 'Design de Interface', foto: '/placeholder.svg' }
     ]
   },
-  "2023.1": {
+  "2025.1": {
     ministrantes: [
       { nome: 'Fernando', curso: 'Design Digital', foto: '/placeholder.svg' },
       { nome: 'Juliana', curso: 'Ciência da Computação', foto: '/placeholder.svg' }
