@@ -7,12 +7,12 @@ interface SeasonCardProps {
   title: string;
   version: string;
   description: string;
-  lessons?: number;
+  lessons: number;
 }
 
 export const SeasonCard = ({ title, version, description, lessons }: SeasonCardProps) => {
   return (
-    <Card className="hover:border-primary/50 transition-colors cursor-pointer" resource={`/materials?version=${version}`}>
+    <Card className="hover:border-primary/50 transition-colors cursor-pointer" re>
       <CardHeader>
         <div className="flex items-center justify-between">
           <CardTitle className="text-lg font-semibold">{title}</CardTitle>
@@ -23,10 +23,10 @@ export const SeasonCard = ({ title, version, description, lessons }: SeasonCardP
       </CardHeader>
       <CardContent>
         <p className="text-muted-foreground mb-4">{description}</p>
-        {lessons && <div className="flex items-center text-muted-foreground text-sm">
+        <div className="flex items-center text-muted-foreground text-sm">
           <CalendarDays className="w-4 h-4 mr-2" />
           <span>{lessons} lições</span>
-        </div>}
+        </div>
       </CardContent>
     </Card>
   );

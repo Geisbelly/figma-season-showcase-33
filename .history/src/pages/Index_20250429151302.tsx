@@ -18,7 +18,7 @@ const seasons = [
     title: "Contruindo o Pinterest no Figma",
     version: "2025.1",
     description: "Básico do figma, para iniciantes",
-    //lessons: 10,
+    lessons: 10,
   }
 ];
 

@@ -7,7 +7,6 @@ import { useState } from "react";
 import { useSearchParams } from "react-router-dom";
 
 const MaterialsPage = () => {
-  const [searchParams] = useSearchParams();
   const urlVersion = searchParams.get("version");
   const [editionFilter, setEditionFilter] = useState<string | null>(urlVersion??null);
   

@@ -4,14 +4,9 @@ import { materialsData } from "@/data/materialsData";
 import { MaterialCard } from "@/components/MaterialCard";
 import { FileText } from "lucide-react";
 import { useState } from "react";
-import { useSearchParams } from "react-router-dom";
 
-const MaterialsPage = () => {
-  const [searchParams] = useSearchParams();
-  const urlVersion = searchParams.get("version");
-  const [editionFilter, setEditionFilter] = useState<string | null>(urlVersion??null);
-  
-
+const MaterialsPage = ({editionFilter=null}:{editionFilter:string}) => {
+  const [editionFilter, setEditionFilter] = useState<string | null>(null);
   
   const editions = [...new Set(materialsData.map(material => material.edition))].sort().reverse();
   

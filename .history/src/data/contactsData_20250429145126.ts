@@ -62,7 +62,7 @@ export const contactsData: Contact[] = [
     name: "Samuel Abade",
     role: "Instrutor Assistente",
     photo: "/public/samuel.jpeg",
-    description: "",
+    description: "Tecnico, com foco .",
     socialLinks: [
       { type: "instagram", url: "https://instagram.com/samuel_abade21" },
       { type: "email", url: "mailto:mugas804@gmail.com" },

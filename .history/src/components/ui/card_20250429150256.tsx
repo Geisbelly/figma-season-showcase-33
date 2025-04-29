@@ -7,7 +7,7 @@ const Card = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
 >(({ className, resource, ...props }: { className?: string; resource: string } & React.HTMLAttributes<HTMLDivElement>, ref) => (
-  <Link to={resource} className="w-full">
+  <Link to={href} className="w-full">
   <div
     ref={ref}
     className={cn(

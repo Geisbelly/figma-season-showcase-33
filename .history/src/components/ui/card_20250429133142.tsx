@@ -1,13 +1,11 @@
 import * as React from "react"
 
 import { cn } from "@/lib/utils"
-import { Link } from "react-router-dom";
 
 const Card = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
->(({ className, resource, ...props }: { className?: string; resource: string } & React.HTMLAttributes<HTMLDivElement>, ref) => (
-  <Link to={resource} className="w-full">
+>(({ className, ...props }, ref) => (
   <div
     ref={ref}
     className={cn(
@@ -16,7 +14,6 @@ const Card = React.forwardRef<
     )}
     {...props}
   />
-  </Link>
 ))
 Card.displayName = "Card"
 

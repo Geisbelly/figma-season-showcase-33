@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 const Card = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
->(({ className, resource, ...props }: { className?: string; resource: string } & React.HTMLAttributes<HTMLDivElement>, ref) => (
-  <Link to={resource} className="w-full">
+>(({ className, href, ...props }: { className?: string; href: string } & React.HTMLAttributes<HTMLDivElement>, ref) => (
+  <Link to= className="w-full">
   <div
     ref={ref}
     className={cn(

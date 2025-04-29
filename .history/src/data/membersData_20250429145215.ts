@@ -31,7 +31,7 @@ export const membersData: MembersData = {
       { nome: 'João Lucas', curso: 'Ciência da Computação', foto: '/public/lucas.jpg' }
     ],
     assistentes: [
-      { nome: 'Maria Clara Lima', curso: 'Ciência da Computação', foto: '/public/maria.jpeg' },
+      { nome: 'Maria Clara', curso: 'Ciência da Computação', foto: '/public/maria.jpeg' },
       { nome: 'Samuel Abade', curso: 'Engenharia de Softwares', foto: '/public/samuel.jpeg' },
       { nome: 'Ana Clara Zanetti', curso: 'Engenharia de Softwares', foto: '/public/ana.jpeg' },
     ]
@@ -40,7 +40,7 @@ export const membersData: MembersData = {
     ministrantes: [
       { nome: 'Geisbelly Victória', curso: 'Ciência da Computação', foto: '/public/geisbelly.jpg' },
       { nome: 'Levi Luz', curso: 'Ciência da Computação', foto: '/public/levi.jpeg' },
-      { nome: 'Maria Clara', curso: 'Ciência da Computação', foto: '/public/maria.jpeg' }
+      { nome: 'Maria Clara Lima', curso: 'Ciência da Computação', foto: '/public/maria.jpeg' }
     ],
     assistentes: [
       { nome: 'Nicole França', curso: 'Engenharia de Softwares', foto: '/public/nicole.jpeg' },

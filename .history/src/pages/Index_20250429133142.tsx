@@ -6,19 +6,19 @@ const seasons = [
     title: "Clone do Whatsapp com Figma",
     version: "2024.1",
     description: "Aprenda os conceitos básicos ao intermediario com a interface do Figma",
-    //lessons: 25,
+    lessons: 25,
   },
   {
     title: "Clone do Whatsapp com Figma",
     version: "2024.2",
     description: "Aprenda os conceitos básicos com a interface do Figma",
-   // lessons: 23,
+    lessons: 23,
   },
   {
     title: "Contruindo o Pinterest no Figma",
     version: "2025.1",
     description: "Básico do figma, para iniciantes",
-    //lessons: 10,
+    lessons: 10,
   }
 ];
 

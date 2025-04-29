@@ -1,15 +1,16 @@
 import * as React from "react"
 
 import { cn } from "@/lib/utils"
-import { Link } from "react-router-dom";
+import { redirect } from "react-router-dom";
 
 const Card = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
->(({ className, resource, ...props }: { className?: string; resource: string } & React.HTMLAttributes<HTMLDivElement>, ref) => (
-  <Link to={resource} className="w-full">
+>(({ className, href, ...props }: { className?: string; href?: string } & React.HTMLAttributes<HTMLDivElement>, ref) => (
+  <Link to={href} className="w-full">
   <div
     ref={ref}
+    onClick={() => href && (redirect(href))}
     className={cn(
       "rounded-lg border bg-card text-card-foreground shadow-sm",
       className

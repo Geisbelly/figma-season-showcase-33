@@ -23,7 +23,7 @@ export const SeasonCard = ({ title, version, description, lessons }: SeasonCardP
       </CardHeader>
       <CardContent>
         <p className="text-muted-foreground mb-4">{description}</p>
-        {lessons && <div className="flex items-center text-muted-foreground text-sm">
+        {<div className="flex items-center text-muted-foreground text-sm">
           <CalendarDays className="w-4 h-4 mr-2" />
           <span>{lessons} lições</span>
         </div>}
