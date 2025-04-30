@@ -1,4 +1,3 @@
-
 interface SocialLink {
   type: "linkedin" | "github" | "instagram" | "whatsapp" | "email" | "phone";
   url: string;
@@ -16,8 +15,8 @@ export const contactsData: Contact[] = [
   {
     name: "Geisbelly Victória",
     role: "Instrutora Líder",
-    photo: "/public/geisbelly.jpg",
-    description: "Designer UI/UX, desenvolvedora com mais de 1 anos de experiência.",
+    photo: "/geisbelly.jpg",
+    description: "Designer UI/UX, desenvolvedora com mais de 1 ano de experiência.",
     socialLinks: [
       { type: "linkedin", url: "https://linkedin.com/in/geisbelly" },
       { type: "github", url: "https://github.com/geisbelly" },
@@ -28,21 +27,21 @@ export const contactsData: Contact[] = [
   {
     name: "Levi Luz",
     role: "Instrutor Principal",
-    photo: "/public/levi.jpeg",
-    description: "Design de interfaces e experiência do usuário, com mais de 1 ano e experiência.",
+    photo: "/levi.jpeg",
+    description: "Design de interfaces e experiência do usuário, com mais de 1 ano de experiência.",
     socialLinks: [
-      { type: "linkedin", url: "https://www.linkedin.com/in/levi-luz-4384362b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
-      { type: "email", url: "leviluzbr@gmail.com" },
+      { type: "linkedin", url: "https://www.linkedin.com/in/levi-luz-4384362b7" },
+      { type: "email", url: "mailto:leviluzbr@gmail.com" },
       { type: "phone", url: "tel:+5563984424488" }
     ]
   },
   {
     name: "João Pedro",
     role: "Instrutor Assistente",
-    photo: "/public/jp.jpeg",
-    description: "Designer UI/UX, desenvolvedor com mais de 1 anos de experiência.",
+    photo: "/jp.jpeg",
+    description: "Designer UI/UX, desenvolvedor com mais de 1 ano de experiência.",
     socialLinks: [
-      { type: "linkedin", url: "https://www.linkedin.com/in/joao-pedro-ribeiro-batista-araujo-1583b1332/?originalSubdomain=br" },
+      { type: "linkedin", url: "https://www.linkedin.com/in/joao-pedro-ribeiro-batista-araujo-1583b1332" },
       { type: "email", url: "mailto:jpedro204jp@rede.ulbra.br" },
       { type: "instagram", url: "https://www.instagram.com/jp_batista20/" },
       { type: "whatsapp", url: "https://wa.me/55639999122501" }
@@ -51,17 +50,18 @@ export const contactsData: Contact[] = [
   {
     name: "Guilherme Domiciano",
     role: "Instrutor Assistente",
-    photo: "/public/guilherme.jpeg",
-    description: "Desenvolvedor com mais de 1 anos de experiência.",
+    photo: "/guilherme.jpeg",
+    description: "Desenvolvedor com mais de 1 ano de experiência.",
     socialLinks: [
       { type: "linkedin", url: "https://www.linkedin.com/in/guiherme-domiciano" },
-      { type: "github", url: "https://github.com/GuilhermeDomiciano"},
+      { type: "github", url: "https://github.com/GuilhermeDomiciano" },
       { type: "email", url: "mailto:guilhermedomicianosilva@gmail.com" }
     ]
-  },{
+  },
+  {
     name: "Samuel Abade",
     role: "Instrutor Assistente",
-    photo: "/public/samuel.jpeg",
+    photo: "/samuel.jpeg",
     description: "",
     socialLinks: [
       { type: "instagram", url: "https://instagram.com/samuel_abade21" },

@@ -55,7 +55,7 @@ const MaterialsPage = () => {
         <TabsList className="mb-8">
           <TabsTrigger value="all">Todos</TabsTrigger>
           <TabsTrigger value="slides">Slides</TabsTrigger>
-          <TabsTrigger value="models">Modelos Figma</TabsTrigger>
+          <TabsTrigger value="models">Protótipos</TabsTrigger>
           <TabsTrigger value="resources">Recursos</TabsTrigger>
         </TabsList>
         
