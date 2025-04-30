@@ -140,7 +140,7 @@ const AboutPage = () => {
             Nosso curso combina teoria e prática, com ênfase em projetos reais que simulam um projeto simples. 
             Os alunos têm acesso a materiais didáticos e vídeo-aulas.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
             <Card>
               <CardContent className="pt-6">
                 <h3 className="font-medium text-center mb-2">Aulas Teóricas</h3>
