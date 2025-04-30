@@ -137,8 +137,9 @@ const AboutPage = () => {
             Metodologia de Ensino
           </h2>
           <p className="text-lg text-muted-foreground mb-6">
-            Nosso curso combina teoria e prática, com ênfase em projetos reais que simulam um projeto simples. 
-            Os alunos têm acesso a materiais didáticos e vídeo-aulas.
+            Nosso curso combina teoria e prática, com ênfase em projetos reais que simulam o ambiente profissional. 
+            Os alunos têm acesso a materiais didáticos, vídeo-aulas, exercícios práticos e fóruns de discussão, 
+            além de mentorias individuais para acompanhar o progresso.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
             <Card>
@@ -205,8 +206,7 @@ const AboutPage = () => {
             </Card>
           </div>
         </section>
-        
-
+    
       </div>
     </div>
   );

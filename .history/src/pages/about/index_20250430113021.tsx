@@ -137,7 +137,7 @@ const AboutPage = () => {
             Metodologia de Ensino
           </h2>
           <p className="text-lg text-muted-foreground mb-6">
-            Nosso curso combina teoria e prática, com ênfase em projetos reais que simulam um projeto simples. 
+            Nosso curso combina teoria e prática, com ênfase em projetos reais que simulam um projeto real. 
             Os alunos têm acesso a materiais didáticos e vídeo-aulas.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
