@@ -157,14 +157,14 @@ const AboutPage = () => {
                 </p>
               </CardContent>
             </Card>
-            {/* <Card>
+            <Card>
               <CardContent className="pt-6">
                 <h3 className="font-medium text-center mb-2">Feedback Constante</h3>
                 <p className="text-sm text-muted-foreground text-center">
                   Avaliação detalhada dos projetos com sugestões de melhorias e direcionamento.
                 </p>
               </CardContent>
-            </Card> */}
+            </Card>
           </div>
         </section>
         
